@@ -7,15 +7,15 @@ plugins:
   - jekyll-sitemap
 excerpt_separator: <!--more-->
 collections:
-  projectes:
-    output: true
-    permalink: /:collection/:name
   serveis:
     output: true
     permalink: /:collection/:name
-  clients:
+  receptes:
     output: true
     permalink: /:collection/:name
+sass:
+    sass_dir: _sass
+    style: compressed
 prose:
   siteurl: https://miriam.cat
   media: uploads
