@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet"> 
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     {%- include topbar.html -%}
@@ -16,17 +16,7 @@
     <main id="content">
         <!-- Hero -->
         <div class="container">
-            {% for item in site.serveis %}
-                <div class="row justify-content-lg-between align-items-lg-center py-5">
-                    <div class="col">
-                        <div class="box box-pink">
-                            <h3 class="font-playfair">{{ item.title }}</h3>
-                            {{ item.content }}
-                            <div class="box-square box-square-right"></div>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
+            {{ content }}
         </div>
     </main>
 

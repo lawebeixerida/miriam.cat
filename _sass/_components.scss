@@ -2,6 +2,7 @@
     position: relative;
     display: block;
     width: 100%;
+    margin-bottom: 150px;
 
     p {
         width: 80%;
@@ -14,18 +15,33 @@
         }
     }
 
+    &-blue {
+        .box-square {
+            background-color: #c0e7ed;
+            z-index: -1;
+        }
+
+        h6 {
+            color: #67758c;
+        }
+    }
+
     &-square {
         position: absolute;
-        top: -50%;
+        top: -50px;
         width: 45%;
-        height: 200px;
+        height: 260px;
         border: 2px solid #fff;
     }
 
+    &-square-left-random {
+        left: random(100) + px;
+    }
+
     &-square-left {
-        left: 20px;
+        left: -60px;
     }
     &-square-right {
-        right: 20px;
+        right: 60px;
     }
 }
