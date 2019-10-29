@@ -29,3 +29,7 @@ $topNavbarHeight: 100px;
 #content > .container {
     padding-top: $topNavbarHeight + 50px;
 }
+
+.container img {
+    display: inline;
+}
