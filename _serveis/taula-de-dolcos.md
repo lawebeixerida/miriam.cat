@@ -18,3 +18,8 @@ Pots triar d'una gran varietat d'opcions per fer la taula de dolços:
 * Brownies.
 * Productes salats.
 * Un llarg etc.
+
+### També tenim oferta de salat!
+
+* Crispetes
+* Patates xips
