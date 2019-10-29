@@ -26,6 +26,6 @@ $topNavbarHeight: 100px;
     width: 270px;
 }
 
-.container {
+#content > .container {
     padding-top: calc($topNavbarHeight + 50px);
 }
