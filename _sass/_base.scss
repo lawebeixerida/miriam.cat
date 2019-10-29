@@ -3,6 +3,23 @@ body {
     background-image: url("/assets/images/pattern.png");
 }
 
+$topNavbarHeight: 100px;
+
 .top-navbar {
-    border-bottom: 1px solid #efefef;
+    border: 0;
+    box-shadow: 1px 1px 10px #ccc;
+    background: url("/assets/images/logo.png");
+    max-height: $topNavbarHeight;
+    min-height: $topNavbarHeight;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 255px;
+}
+
+.content {
+    padding-top: calc($topNavbarHeight + 50px);
 }
