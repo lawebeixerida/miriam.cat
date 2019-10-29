@@ -20,6 +20,12 @@ $topNavbarHeight: 100px;
     background-size: 255px;
 }
 
-.content {
+.top-navbar .home-link {
+    display: block;
+    height: 100px;
+    width: 270px;
+}
+
+.container {
     padding-top: calc($topNavbarHeight + 50px);
 }
