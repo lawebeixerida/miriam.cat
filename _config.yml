@@ -1,12 +1,16 @@
 ---
-title: Miriam - Dolços i Pasitssos
+title: miriamdolcets
 timezone: Europe/Madrid
 url: https://miriam.cat
 permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-postcss
 excerpt_separator: <!--more-->
 collections:
+  galetes:
+    output: true
+    permalink: /:collection/:name
   serveis:
     output: true
     permalink: /:collection/:name

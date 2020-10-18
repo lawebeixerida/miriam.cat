@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
+    <script src="js/main.js"></script>
+  </head>
+  <body class="bg-body text-body font-body">
+    <div class="container mx-auto px-4"> 
+    
+      <nav class="flex flex-wrap items-center justify-between p-4">
+        <div class="lg:order-2 w-auto lg:w-1/5 lg:text-center"><a class="text-xl text-pink-500 font-semibold" href="#">miriamdolcets</a></div>
+        <div class="block lg:hidden">
+          <button class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="navbar-menu hidden lg:order-1 lg:block w-full lg:w-2/5"><a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700" href="#">Galetes</a><a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700" href="#">Qui som</a></div>
+        <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right"><a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700" href="#">Xarxes</a><a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700" href="#">Preguntes</a><a class="block lg:inline-block mt-4 lg:mt-0 text-blue-900 hover:text-blue-700" href="#">Contacte</a></div>
+      </nav>
+    
+      <div></div>
+    
+      <p class="py-8 text-lg text-gray-500 text-center leading-snug">
+        Benvingut/da a la nova boutique de galetes de la provincia de Girona.<br />
+        Deixa que les galetes més dolçes siguin 
+        el complement perfecte d'una estona amb amigues o en moments de celebració.
+      </p>
+    
+      <section class="py-12 px-4 text-center">
+        <div class="w-full max-w-2xl mx-auto">
+          <span class="text-sm font-semibold">Es molt senzill</span>
+          <h2 class="text-5xl mt-2 mb-6 leading-tight font-heading">Tria entre 3 caixes</h2>
+        </div>
+      </section>
+    
+      <section class="py-8 px-4">
+        <div class="flex flex-wrap -mx-8 text-center">
+          <div class="w-full md:w-1/3 p-8 mb-4 md:mb-0">
+            <h3 class="text-5xl font-heading">La caixeta</h3>
+            <h4 class="text-3xl font-heading">6,00 €</h4>
+            <p class="flex-grow mt-4 mb-6 text-gray-500 leading-relaxed">Pots triar entre <strong>4 galetes</strong>.</p>
+            <a class="inline-block py-4 px-8 leading-none text-white bg-pink-500 hover:bg-pink-600 rounded shadow" href="#">Triar aquesta</a>
+          </div>
+          <div class="w-full md:w-1/3 p-8 mb-4 md:mb-0 md:border-l">
+            <h3 class="text-5xl font-heading">La caixa</h3>
+            <h4 class="text-3xl font-heading">8,00 €</h4>
+            <p class="mt-4 mb-6 text-gray-500 leading-relaxed">Pots triar entre <strong>6 galetes</strong>.</p>
+            <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Triar aquesta</a>
+          </div>
+          <div class="w-full md:w-1/3 p-8 mb-4 md:mb-0 md:border-l">
+            <h3 class="text-5xl font-heading">El caixetó</h3>
+            <h4 class="text-3xl font-heading">14,00 €</h4>
+            <p class="mt-4 mb-6 text-gray-500 leading-relaxed">Pots triar entre <strong>12 galetes</strong>.</p>
+            <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Triar aquesta</a>
+          </div>
+        </div>
+      </section>
+    
+      <section class="py-12 px-4 text-center">
+        <div class="w-full max-w-2xl mx-auto">
+          <span class="text-sm font-semibold">A continuació...</span>
+          <h2 class="text-5xl mt-2 mb-6 leading-tight font-heading">Omple la caixa amb les galetes que més et facin feliç </h2>
+        </div>
+      </section>
+    
+      <section class="py-12 px-4 text-center">
+        <!--<h2 class="text-4xl mb-2 leading-tight font-heading">Les galetes més bones del mon sencer!</h2>-->
+        <p class="max-w-xl mx-auto mb-12 text-gray-500">Aquest es l'assortiment de galetes que pots posar en cadascuna de les caixes que hagis triat.</p>
+        <div class="flex flex-wrap -mx-8">
+          <div class="md:w-1/4 p-8">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/female_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Xocolata i taronja</h3>
+            <span class="text-pink-400">La galeta més elegant</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Una deliciosa galeta de taronja amb trocets de xocolata.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+          <div class="md:w-1/4 p-8 md:border-l">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/male_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Amb nous</h3>
+            <span class="text-pink-400">Tradicional</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Galeta feta amb l'estil traducionals amb nous de primera qüalitat.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+          <div class="md:w-1/4 p-8 md:border-l">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/male_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Avena</h3>
+            <span class="text-pink-400">Sabor intens</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Un clàssic que mai decepciona. Galeta d'avena com les que feia l'avia.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+          <div class="md:w-1/4 p-8 md:border-l">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/female_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Xocolata blanca</h3>
+            <span class="text-pink-400">Dolç en majuscules</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Galeta amb llagrimes de xocolata blanca que inunden de dolçor el teu paladar.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+        </div>
+      </section>
+    
+      <section class="px-4 text-center">
+        <div class="flex flex-wrap -mx-8">
+          <div class="md:w-1/4 p-8">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/female_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Xocolata i taronja</h3>
+            <span class="text-pink-400">La galeta més elegant</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Una deliciosa galeta de taronja amb trocets de xocolata.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+          <div class="md:w-1/4 p-8 md:border-l">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/male_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Amb nous</h3>
+            <span class="text-pink-400">Tradicional</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Galeta feta amb l'estil traducionals amb nous de primera qüalitat.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+          <div class="md:w-1/4 p-8 md:border-l">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/male_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Avena</h3>
+            <span class="text-pink-400">Sabor intens</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Un clàssic que mai decepciona. Galeta d'avena com les que feia l'avia.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+          <div class="md:w-1/4 p-8 md:border-l">
+            <img class="w-1/3 mx-auto mb-4 rounded-full" src="placeholders/pictures/female_avatar.svg" alt="">
+            <h3 class="text-xl font-heading">Xocolata blanca</h3>
+            <span class="text-pink-400">Dolç en majuscules</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              Galeta amb llagrimes de xocolata blanca que inunden de dolçor el teu paladar.
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+              <a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow" href="#">Afegir</a>
+            </p><p>
+            </p></div>
+        </div>
+      </section>
+    
+      <div></div>
+    
+      <section class="p-4">
+        <div class="flex flex-wrap -mx-8">
+          <div class="md:w-1/3 py-4 px-8 mb-4 md:mb-0">
+            <h3 class="text-2xl font-heading">Homemade</h3>
+            <p class="my-4 text-gray-500 leading-relaxed">
+              Totes les nostres galetes son artesanals i fetes a casa. Com les galetes de les persones que més estimes.
+            </p>
+            <a class="text-pink-700 hover:underline" href="#">Saber més »</a>
+          </div>
+          <div class="md:w-1/3 py-4 px-8 mb-4 md:mb-0">
+            <h3 class="text-2xl font-heading">Recollida i enviament</h3>
+            <p class="my-4 text-gray-500 leading-relaxed">
+              T'oferim servei d'enviament a tota la provincia. Però també les pots venir a buscar a casa.
+            </p>
+            <a class="text-pink-700 hover:underline" href="#">Saber més »</a>
+          </div>
+          <div class="md:w-1/3 py-4 px-8 mb-4 md:mb-0">
+            <h3 class="text-2xl font-heading">Sempre innovant</h3>
+            <p class="my-4 text-gray-500 leading-relaxed">
+              Cada cert temps afegirem un nou membre deliciós a la familia. Estigues atent a les xarxes i no t'ho perdis.
+            </p>
+            <a class="text-pink-700 hover:underline" href="#">Saber més »</a>
+          </div>
+        </div>
+      </section>
+    
+      <div>
+      <div></div>
+      </div>
+    
+      <section class="py-8">
+        <div class="max-w-sm mx-auto text-center">
+          <h2 class="text-5xl font-heading">Dissabtes dolços</h2>
+          <h3 class="text-4xl">19 € / mes</h3>
+          <p class="mt-4 mb-6 text-gray-500 leading-relaxed">
+            Et presentem el nou servei de caps de setmana. 
+            Amb una subscripció de 19 € al mes, cada dissabte obtindràs una caixeta de 4 galetes.
+          </p>
+          <a class="inline-block py-4 px-8 leading-none text-white bg-pink-500 hover:bg-pink-600 rounded shadow" href="#">
+            Apunta'm!
+          </a>
+        </div>
+      </section>
+    
+      <div></div>
+    
+      <footer class="flex flex-wrap items-center justify-between p-4">
+        <div class="w-full lg:w-auto lg:mr-6 mb-4 lg:mb-0 text-center">© 2020 miriamdolcets</div>
+        <div class="flex flex-col lg:flex-row items-center w-full lg:w-auto">
+          <div class="mx-auto lg:mx-0 lg:ml-auto"><a class="inline-block mt-0 text-blue-900 hover:text-blue-700" href="#">Xarxes</a><a class="inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700" href="#">Preguntes</a><a class="inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700" href="#">Zona privada</a></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+

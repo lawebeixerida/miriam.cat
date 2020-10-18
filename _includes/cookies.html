@@ -1,0 +1,20 @@
+<section class="px-4 text-center">
+    <div
+        class="md:grid md:grid-flow-col lg:grid lg:grid-flow-col xl:grid xl:grid-flow-col md:grid-cols-2 md:grid-rows-4
+        lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-3 xl:grid-rows-3 gap-4">
+        {% for item in site.galetes %}
+        <div class="p-8">
+            <img class="w-1/4 mx-auto mb-4 rounded-full" src="{{ item.image }}" alt="">
+            <h3 class="text-xl font-heading">{{ item.title }}</h3>
+            <span class="text-pink-400">{{ item.subtitle }}</span>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+                {{ item.description }}
+            </p>
+            <p class="mt-4 text-gray-500 leading-relaxed">
+                <!--<a class="inline-block py-4 px-8 leading-none text-pink-700 bg-pink-100 hover:bg-pink-200 rounded shadow"
+                    href="#">Afegir</a>-->
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
