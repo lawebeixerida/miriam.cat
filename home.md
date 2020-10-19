@@ -59,4 +59,7 @@ layout: provisional
   </section>
 
   {%- include cookies.html -%}
+
+
+  {%- include form.html -%}
 </div>

@@ -5,10 +5,7 @@ permalink: "/xarxes"
 layout: provisional
 ---
 
-
-<div class="h-screen">
-    <div class="instagram">
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-373e456d-470c-4bf2-9174-27b5ae2f94b2"></div>
-    </div>
+<div class="instagram">
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-373e456d-470c-4bf2-9174-27b5ae2f94b2"></div>
 </div>
