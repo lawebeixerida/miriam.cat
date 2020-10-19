@@ -60,6 +60,14 @@ layout: provisional
 
   {%- include cookies.html -%}
 
+  <section class="py-12 px-4 text-center">
+      <div class="w-full max-w-2xl mx-auto">
+          <span class="text-sm font-semibold">I per últim</span>
+          <h2 class="text-6xl mt-2 mb-6 text-pink-600 leading-tight font-heading">
+              Gaudeeeeeix
+          </h2>
+      </div>
+  </section>
 
   {%- include form.html -%}
 </div>
