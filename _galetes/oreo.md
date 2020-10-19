@@ -5,6 +5,6 @@ published: true
 title: Oreo
 subtitle: Dues galetes al preu d'una
 description: Galeta de vainilla amb trossets de galeta oreo.
-image: /uploads/oreo.jpg
+image: /uploads/oreo.png
 price: 1.5
 ---

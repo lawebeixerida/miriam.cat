@@ -1,0 +1,48 @@
+<div class="relative h-screen">
+    <div class="mx-auto h-screen opacity-25 bg-white p-6"
+        style="background-image: url('/assets/images/banner-cookies.png'); background-size: cover;">
+    </div>
+    <div class="absolute h-screen mx-auto w-full top-0">
+        <div class="pt-24 flex flex-col w-full justify-center items-center leading-tight">
+            <div class="font-extrabold" style="font-size: 8rem;position: relative; margin: 0 auto; text-align: center">
+                <p>Tria.</p>
+                <div x-data="{ show: false }" x-show="show"
+                    x-init="setTimeout(() => setInterval(function(){show = true;setTimeout(() => show = false, 2000);}, 6000), 1000);setTimeout(() => show = true, 1000);setTimeout(() => show = false, 3000)"
+                    x-transition:enter="transition ease-out duration-1000" x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-1000"
+                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+                    class="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-500"
+                    style="font-size: 8rem;position: absolute; top: 0; width: 100%" x-cloak>Tria.
+                </div>
+            </div>
+            <div class="font-extrabold" style="font-size: 8rem;position: relative; margin: 0 auto; text-align: center">
+                <p>Mossega.</p>
+                <div x-data="{ show: false }" x-show="show"
+                    x-init="setTimeout(() => setInterval(function(){show = true;setTimeout(() => show = false, 2000);}, 6000), 3000);setTimeout(() => show = true, 3000);setTimeout(() => show = false, 5000)"
+                    x-transition:enter="transition ease-out duration-1000" x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-1000"
+                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+                    class="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-pink-500"
+                    style="font-size: 8rem;position: absolute; top: 0; width: 100%" x-cloak>Mossega.
+                </div>
+            </div>
+            <div class="font-extrabold" style="font-size: 8rem;position: relative; margin: 0 auto; text-align: center">
+                <p>Disfruta.</p>
+                <div x-data="{ show: false }" x-show="show"
+                    x-init="setTimeout(() => setInterval(function(){show = true;setTimeout(() => show = false, 2000);}, 6000), 5000);setTimeout(() => show = true, 5000);setTimeout(() => show = false, 7000)"
+                    x-transition:enter="transition ease-out duration-1000" x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-1000"
+                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+                    class="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-500"
+                    style="font-size: 8rem;position: absolute; top: 0; width: 100%" x-cloak>Disfruta.</div>
+            </div>
+        </div>
+        <div class="container mx-auto">
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>

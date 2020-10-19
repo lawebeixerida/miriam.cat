@@ -5,6 +5,6 @@ published: true
 title: Canyella i nous
 subtitle: Amor a primera mossegada
 description: Galeta de vainilla aromatitzada amb un toc de canyella i nous.
-image: /uploads/canyella.jpg
+image: /uploads/canyella.png
 price: 1.5
 ---

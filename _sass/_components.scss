@@ -1,114 +1,41 @@
-.box {
-    position: relative;
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span {
     display: block;
-    width: 100%;
-    margin-bottom: 150px;
-
-    p {
-        width: 80%;
-    }
-
-    &-pink {
-        .box-square {
-            background-color: #f7ebeb;
-            z-index: -1;
-        }
-    }
-
-    &-blue {
-        .box-square {
-            background-color: #c0e7ed;
-            z-index: -1;
-        }
-
-        h6 {
-            color: #67758c;
-        }
-    }
-
-    &-square {
-        position: absolute;
-        top: -50px;
-        width: 45%;
-        height: 260px;
-        border: 2px solid #fff;
-    }
-
-    &-square-left-random {
-        left: random(100) + px;
-    }
-
-    &-square-left {
-        left: -60px;
-    }
-    &-square-right {
-        right: 60px;
-    }
-
-    img {
-        width: 30%;
-        border-radius: 10px;
-        box-shadow: 1px 1px 10px #ccc;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
 }
 
-
-
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  //CSS
-
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
 }
 
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  //CSS
-
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
 }
 
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-    .box {
-        img {
-            width: 90%;
-            margin: 0;
-            margin-top: 20px;
-        }
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
     }
 
-
-}
-
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-    .box {
-        img {
-            width: 90%;
-            margin: 0;
-            margin-top: 20px;
-        }
+    50% {
+        opacity: 1;
     }
 
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
 }

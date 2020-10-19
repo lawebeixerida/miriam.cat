@@ -5,6 +5,6 @@ published: true
 title: Vainilla, avena i coco
 subtitle: Tres ben avinguts 
 description: Galeta de vainilla amb flocs d'avena i coco.
-image: /uploads/avena.jpg
+image: /uploads/avena.png
 price: 1.5
 ---
