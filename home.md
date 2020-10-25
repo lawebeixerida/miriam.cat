@@ -64,7 +64,7 @@ layout: provisional
       <div class="w-full max-w-2xl mx-auto">
           <span class="text-sm font-semibold">I per últim</span>
           <h2 class="text-6xl mt-2 mb-6 text-pink-600 leading-tight font-heading">
-              Gaudeeeeeix
+              Gaudeeeix
           </h2>
       </div>
   </section>
