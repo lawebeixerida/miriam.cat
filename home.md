@@ -64,7 +64,7 @@ layout: provisional
       <div class="w-full max-w-2xl mx-auto">
           <span class="text-sm font-semibold">Diga'ns on enviar-la</span>
           <h2 class="text-6xl mt-2 mb-6 text-pink-600 leading-tight font-heading">
-              🚚
+              🚚 (4 €)
           </h2>
       </div>
   </section>
